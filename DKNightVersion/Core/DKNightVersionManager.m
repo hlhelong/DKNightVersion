@@ -13,7 +13,7 @@ NSString * const DKThemeVersionNight = @"NIGHT";
 
 NSString * const DKNightVersionThemeChangingNotification = @"DKNightVersionThemeChangingNotification";
 
-CGFloat const DKNightVersionAnimationDuration = 0.3;
+CGFloat const DKNightVersionAnimationDuration = 0.0;
 
 NSString * const DKNightVersionCurrentThemeVersionKey = @"com.dknightversion.manager.themeversion";
 
