@@ -69,6 +69,9 @@ NSString * const DKNightVersionCurrentThemeVersionKey = @"com.dknightversion.man
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
         } else {
             [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+            if (@available(iOS 13.0, *)) {
+                [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDarkContent animated:YES];
+            }
         }
 #pragma clang diagnostic pop
     }
